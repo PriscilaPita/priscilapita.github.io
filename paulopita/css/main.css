@@ -1,0 +1,77 @@
+
+body{
+		/*esconder o aparcimento do scroll HORIZONTAL*/
+	overflow-x: hidden;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 38px;
+    color: #343a40;
+    text-align: center;
+    margin: 10px 0;
+    padding-top: 50px;
+}
+
+.display-3{
+	margin: 10px 0;
+}
+
+hr {
+	margin: 20px;
+	background-color: red;
+}
+
+
+/*------ Contatos -----*/
+
+.topinfo p {
+	padding-left: 17px;
+	padding-top: 10px;
+	font-weight: bold;
+	color: #343a40;
+}
+
+.img-contact {
+	width: 17px;
+	height: 17px;
+}
+
+/*-------ABOUT---------*/
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 20px;
+    margin: 20px 0 40px 0;
+}
+
+
+/*------ SERVICES -----*/
+
+.full-width{
+	background-color: #343a40;
+	color: #ffffff;
+}
+
+.img-service  img {
+	max-width: 20%;
+}
+
+.service h3 {
+    font-weight: bold;
+    font-size: 38px;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px 0;
+    padding-top: 50px;
+}
+
+.service p {
+    font-size: 1.1rem;
+    line-height: 20px;
+    margin: 20px 0 40px 0;
+}
+
+h4 {
+	color : red;
+}
