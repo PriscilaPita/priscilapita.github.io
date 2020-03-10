@@ -1,8 +1,8 @@
 body {
-    background: url(../images/background.png) bottom center;
-    background-size: cover;
+    background: url(../images/background.png) center;
+    background-position: -10px 200px;
+   
 }
-
 .card-body {
     background-color: rgba(182, 177, 165, 0.59) ;
 }
