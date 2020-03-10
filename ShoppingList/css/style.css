@@ -1,0 +1,9 @@
+body {
+    background: url(../images/background.png) bottom center;
+    background-size: cover;
+}
+
+.card-body {
+    background-color: rgba(182, 177, 165, 0.59) ;
+}
+
