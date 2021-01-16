@@ -1,0 +1,801 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Webwall Newsletter Template</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- jQuery Plugin -->
+
+<style type="text/css">
+div, p, a, li, td {
+	-webkit-text-size-adjust: none;
+	font-family: "Open Sans", "Montserrat", sans-serif;
+}
+body {
+	font-family: "Open Sans", "Montserrat", sans-serif;
+}
+img {
+	display: block;
+}
+table {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+}
+a {
+	text-decoration: none;
+	font-family: "Open Sans", "Montserrat", sans-serif;
+	color: inherit;
+	display: inline-block;
+	;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Open Sans", "Montserrat", sans-serif;
+}
+</style>
+<style type="text/css">
+@media only screen and (max-width: 920px) {
+.width_100 {
+	width: 100%;
+	max-width: 100%;
+}
+.tpl-content {
+	padding: 0px !important;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.width_50percent {
+	max-width: 50%;
+	margin: 0 auto !important;
+	width: 50% !important;
+}
+}
+</style>
+<style type="text/css">
+@media only screen and (max-width: 720px) {
+.width_100 {
+	width: 100%;
+	max-width: 100%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.tablet-resp-block {
+	display: block !important;
+	width: 100% !important;
+	height: auto !important;
+}
+.tablet-resp-erase {
+	display: none !important;
+	height: 0px !important;
+}
+.width_50percent {
+	max-width: 100%;
+	display: block !important;
+	height: auto !important;
+	margin: 0 auto !important;
+	width: 100% !important;
+}
+}
+</style>
+<style type="text/css">
+@media only screen and (max-width: 620px) {
+.padding-top-bottom {
+	padding: 20px 0px;
+}
+.height-and-padding-bottom {
+	height: auto;
+	padding-bottom: 20px !important;
+}
+.width_90percent {
+	width: 90% !important;
+	max-width: 90%;
+	margin: 0 auto !important;
+	height: auto!important;
+}
+.display-block {
+	display: block !important;
+	height: auto !important;
+	margin: 0 auto !important;
+	width: 100% !important;
+}
+.width_90percent .width_100percent {
+	width: 100% !important;
+	height: auto;
+	display: block;
+	margin: 0 auto !important;
+}
+.width_100percent {
+	width: 100% !important;
+	height: auto;
+	margin: 0 auto !important;
+}
+.tbody-and-tr {
+	display: block !important;
+	width: 100% !important;
+	height: auto !important;
+}
+.padding-top {
+	padding-top: 10px;
+}
+.padding {
+	padding: 10px 0px;
+}
+.logo-outer {
+	text-align: center;
+}
+.padding-top-60 {
+	padding-top: 60px !important;
+	height: auto;
+	display: block;
+}
+.padding-bottom-60 {
+	padding-bottom: 60px !important;
+	height: auto;
+	display: block;
+}
+.img-center img {
+	margin: 0 auto !important;
+}
+.erase {
+	display: none;
+	height: 0px;
+}
+.text-center {
+	float: none !important;
+	text-align: center;
+	text-align: -webkit-center;
+}
+.text-left {
+	float: none !important;
+	text-align: left;
+	text-align: -webkit-left;
+}
+.text-right {
+	float: none !important;
+	text-align: right;
+	text-align: -webkit-right;
+}
+.hero-section-font-1 {
+	font-size: 24px !important;
+	line-height: normal !important;
+	letter-spacing: normal !important
+}
+.hero-section-font-2 {
+	font-size: 36px !important;
+	line-height: normal !important;
+	letter-spacing: normal !important
+}
+.res-font-white {
+	color: #FFFFFF !important;
+}
+.full-width-img img {
+	width: 100%;
+	height: auto;
+}
+.resp-remove-bg {
+	background: #333333 !important;
+}
+.background-img {
+	background-image: none !important;
+}
+.background-cover {
+	background-size: cover !important;
+}
+.block-with-height {
+	display: inline-block;
+	width: 100%;
+}
+.inline-block {
+	display: inline-block;
+}
+.left-right-pad {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+.padding-zero {
+	padding: 0px 0px 0px 0px !important;
+}
+a {
+	display: block;
+	;
+}
+}
+</style>
+<style type="text/css">
+@media only screen and (max-width: 420px) {
+.menu {
+    font-size: 12px !important;
+}
+.display-block-mob {
+    display: block !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+}
+br {
+    display: none;
+}
+.resp-menu {
+    font-size: 10px !important;
+    font-weight: normal !important;
+}
+.side-border {
+    border: 1px solid #5a5a5a !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+}
+</style>
+</head>
+<body style="margin:0px; padding:0px;">
+
+<!--Header 15-->
+<table class="width_100" align="center" border="0" cellpadding="0" cellspacing="0" width="900" style="border-collapse:collapse;" bgcolor="#FFFFFF">
+		<tbody>
+				<tr>
+						<td width="100%" height="20" style="line-height:1px;"></td>
+				</tr>
+				<tr>
+						<td width="100%" align="center" valign="middle"><table class="width_90percent" align="center" border="0" cellpadding="0" width="600" cellspacing="0" style="border-collapse:collapse;">
+										<tbody>
+												<tr>
+														<td class="display-block padding" width="125" align="center" valign="middle" style="line-height:1px;"><a href="http://www.yourwebsiteurl.com/"><img src="images/logo.jpg"  width="100" height="70" alt="Logo" border="0" style="display:block"></a></td>
+														<td width="391" class="erase"></td>
+														<td class="display-block padding" width="84" align="center" valign="middle"><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+																		<tbody>
+																				<tr>
+																						<td width="15" align="center" valign="middle" style="line-height:1px;"><a href="http://www.facebook.com/" target="_blank" style="display:block;"><img src="images/UXUI-design-facebook-icon.png" width="14" height="14" alt="Facebook" border="0" style="display:block" title="Facebook"></a></td>
+																						<td width="8"></td>
+																						<td width="15" align="center" valign="middle" style="line-height:1px;"><a href="https://instagram.com/" target="_blank" style="display:block;"><img src="images/UXUI-design-instagram-icon.png" width="13" height="14" alt="Instagram" border="0" style="display:block" title="Instagram"></a></td>
+																						<td width="8"></td>
+																						<td width="15" align="center" valign="middle" style="line-height:1px;"><a href="https://plus.google.com/" target="_blank" style="display:block;"><img src="images/UXUI-design-google-plus-icon.png" width="12" height="14" alt="Google Plus" border="0" style="display:block" title="Google Plus"></a></td>
+																						<td width="8"></td>
+																						<td width="15" align="center" valign="middle" style="line-height:1px;"><a href="https://in.linkedin.com/" target="_blank" style="display:block;"><img src="images/UXUI-design-linkedin-icon.png" width="13" height="14" alt="Linkedin" border="0" style="display:block" title="Linkedin"></a></td>
+																				</tr>
+																		</tbody>
+																</table></td>
+												</tr>
+										</tbody>
+								</table></td>
+				</tr>
+				<tr>
+						<td width="100%" height="20" style="line-height:1px;"></td>
+				</tr>
+		</tbody>
+</table>
+<!--Header 15 End--><!--Hero Section 1-->
+<table class="width_100" align="center" border="0" cellpadding="0" cellspacing="0" width="900" style="border-collapse:collapse;">
+		<tbody>
+				<tr>
+						<td width="100%" height="100%" align="center" valign="middle" background="https://picsum.photos/id/1/200/300" style="background-image: url(images/UXUI-design-baneer-bg-img1.png);background-repeat:no-repeat;background-position: top center;background-size:cover;" bgcolor="#ffffff"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" height="100%" style="border-collapse:collapse;">
+										<tbody>
+												<tr>
+														<td width="100%" align="center" valign="middle"><table class="width_90percent text-center" align="center" border="0" cellpadding="0" width="600" cellspacing="0" style="border-collapse:collapse; ">
+																		<tbody>
+																				<tr>
+																						<td class="display-block padding-top-60" width="100%" height="110" style="line-height:1px;"></td>
+																				</tr>
+																				<tr>
+																						<td class="display-block padding" width="100%" height="5" style="line-height:1px;"></td>
+																				</tr>
+																				<tr>
+																						<td class="hero-section-font-1 text-center" width="100%" align="left" valign="middle" style="margin: 0px;padding: 0px;color: #ffffff;text-transform: uppercase;font-size: 37px;font-family: 'Open Sans', sans-serif;font-weight: 300;line-height: 38px;"></td>
+																				</tr>
+																				<tr>
+																						<td width="100%" height="5" style="line-height:1px;"></td>
+																				</tr>
+																				<tr>
+																						<td class="hero-section-font-1 text-center" width="100%" align="left" valign="middle" style="margin: 0px;padding: 0px;color: #ffd34d;text-transform: uppercase;font-size: 37px;font-family: 'Open Sans', sans-serif;line-height: 38px;font-weight: bold;">Design and<br> Development</td>
+																				</tr>
+																				<tr>
+																						<td class="display-block padding" width="100%" height="25" style="line-height:1px;"></td>
+																				</tr>
+																				<tr>
+																						<td width="100%" align="left" valign="middle" style="margin: 0px;padding: 0px;color: #ffffff;font-size: 14px;font-family: 'Open Sans', sans-serif;font-weight: 300;line-height: 24px;" class="text-center">Lorem Ipsum is simply dummy text the printing<br>
+																								and typesetting industry. Lorem Ipsum </td>
+																				</tr>
+																				<tr>
+																						<td class="display-block padding" width="100%" height="40" style="line-height:1px;"></td>
+																				</tr>
+																				<tr>
+																						<td width="100%" align="center" valign="middle"><table align="left" border="0" cellpadding="0" cellspacing="0" class="text-center">
+																										<tbody>
+																												<tr>
+																														<td align="center" style="margin:0px;font-size: 14px;color: #ffffff;font-family: 'Open Sans';font-weight: 300;text-transform:uppercase;border: 1px solid #ffffff;border-radius: 10px;"><a href="http://www.yourwebsiteurl.com/" target="_blank" style="color: #ffffff;text-decoration:none;padding: 13px 19px;display:block;">more details</a></td>
+																												</tr>
+																										</tbody>
+																								</table></td>
+																				</tr>
+																				<tr>
+																						<td class="display-block padding" width="100%" height="120" style="line-height:1px;"></td>
+																				</tr>
+																				<tr>
+																						<td class="display-block padding-bottom-60" width="100%" height="210" style="line-height:1px;"></td>
+																				</tr>
+																		</tbody>
+																</table></td>
+												</tr>
+										</tbody>
+								</table></td>
+				</tr>
+		</tbody>
+</table>
+
+<!--End--><!--Features Section 7-->
+<table class="width_100" align="center" border="0" cellpadding="0" cellspacing="0" width="900" style="border-collapse:collapse;" bgcolor="#1437cb">
+		<tbody>
+				<tr>
+						<td valign="middle" align="center" width="100%"><table class="width_90percent" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-image: url(images/UXUI-design-baneer-img2.png);border-collapse:collapse;background-position: center right;background-repeat:no-repeat;background-size: cover;" background="images/UXUI-design-baneer-img2.png">
+										<tbody>
+												<tr>
+														<td valign="middle" align="center"><table class="width_90percent" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse:collapse;">
+																		<tbody>
+																				<tr>
+																						<td width="100%" height="100" style="line-height:1px;" class="padding-top-60"></td>
+																				</tr>
+																				<tr>
+																						<td width="100%" align="center" valign="middle" style="margin: 0px;padding: 0px;color: #ffffff;font-weight: 400;font-family: Open Sans, sans-serif;text-transform: uppercase;font-size: 30px;line-height: 32px;" class="hero-section-font-1">Work style</td>
+																				</tr>
+																				<tr>
+																						<td width="100%" height="10" style="line-height:1px;"></td>
+																				</tr>
+																				<tr>
+																						<td width="100%" align="center" valign="middle" style="line-height: 1px;"><table align="center" border="0" cellpadding="0" width="146" cellspacing="0" style="border-collapse: collapse;">
+																										<tbody>
+																												<tr>
+																														<td width="100%" style="line-height:1px;border-bottom: 2px solid #ffd34d;"></td>
+																												</tr>
+																										</tbody>
+																								</table></td>
+																				</tr>
+																				<tr>
+																						<td width="100%" height="30" style="line-height:1px;"></td>
+																				</tr>
+																				<tr>
+																						<td width="100%" align="center" valign="middle" style="margin: 0px;padding: 0px;color: #c2ccf5;font-weight: 400;font-family: open sans,sans-serif;font-size: 14px;line-height: 24px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem<br>
+																								Ipsum has been the industry's standard dummy text ever</td>
+																				</tr>
+																				<tr>
+																						<td width="100%" height="40" style="line-height:1px;"></td>
+																				</tr>
+																				<tr>
+																						<td width="100%" valign="middle" align="center"><table class="width_90percent" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse:collapse;">
+																										<tbody>
+																												<tr>
+																														<td class="display-block height-and-padding-bottom" width="150" align="center" valign="bottom">
+																															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;">
+																																		<tbody>
+																																				<tr>
+																																						<td align="center" valign="top">
+																																							<table align="center" cellpadding="0" cellspacing="0" border="0" style="background-color: #2d53f7;border: 1px solid #ffd34d;border-radius: 10px;" width="96" height="96">
+																																										<tbody>
+																																												<tr>
+																																														<td align="center" width="100%"><img src="images/UXUI-design-feature-img1.png" width="50" height="50" alt="image" border="0" style="display:block;"></td>
+																																												</tr>
+																																										</tbody>
+																																								</table></td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" style="line-height:1px" height="24"></td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" valign="middle" align="center" style="margin: 0px;padding: 0px;font-weight: 400;font-family: 'Open Sans', sans-serif;font-size: 18px;color: #ffffff;text-transform: uppercase;line-height: 20px;">Analysis</td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" style="line-height:1px" height="15"></td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" valign="top" align="center" style="margin: 0px;padding: 0px;font-size: 14px;font-family: 'Open Sans', sans-serif;font-weight: 400;line-height: 24px;color: #c2ccf5;">Lorem Ipsum simply dummy text of the </td>
+																																				</tr>
+																																		</tbody>
+																																</table></td>
+																														<td class="display-block padding" width="75" valign="middle" align="center" style="line-height:1px;"></td>
+																														<td class="display-block height-and-padding-bottom" width="150" align="center" valign="top">
+																																<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;" align="center">
+																																		<tbody>
+																																				<tr>
+																																						<td valign="top" align="center" width="100%" class="display-block height-and-padding-bottom">
+																																							<table border="0" cellpadding="0" cellspacing="0" align="center">
+																																										<tbody>
+																																												<tr>
+																																														<td align="center" valign="top" style="border: 1px solid #b5c0ef; padding: 10px;border-radius: 10px;" width="98" height="98">
+																																																<table align="center" cellpadding="0" cellspacing="0" border="0" style="background-color: #ffd34d;border-radius: 10px;" width="96" height="96">
+																																																		<tbody>
+																																																				<tr>
+																																																						<td align="center" width="100%"><img src="images/UXUI-design-feature-img2.png" width="50" height="50" alt="image" border="0" style="display:block;"></td>
+																																																				</tr>
+																																																		</tbody>
+																																																</table></td>
+																																												</tr>
+																																										</tbody>
+																																								</table></td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" style="line-height:1px" height="15"></td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" valign="middle" align="center" style="margin: 0px;padding: 0px;font-weight: 400;font-family: 'Open Sans', sans-serif;font-size: 18px;color: #ffffff;text-transform: uppercase;line-height: 20px;">design</td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" style="line-height:1px" height="15"></td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" valign="top" align="center" style="margin: 0px;padding: 0px;font-size: 14px;font-family: 'Open Sans', sans-serif;font-weight: 400;line-height: 24px;color: #c2ccf5;">Lorem Ipsum simply dummy text of the </td>
+																																				</tr>
+																																		</tbody>
+																																</table></td>
+																														<td class="display-block padding" width="75" valign="middle" align="center" style="line-height:1px;"></td>
+																														<td class="display-block height-and-padding-bottom" width="150" align="center" valign="bottom">
+																																<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;">
+																																		<tbody>
+																																				<tr>
+																																						<td align="center" valign="top">
+																																								<table align="center" cellpadding="0" cellspacing="0" border="0" style="background-color: #2d53f7;border: 1px solid #ffd34d;border-radius: 10px;" width="96" height="96">
+																																										<tbody>
+																																												<tr>
+																																														<td align="center" width="100%"><img src="images/UXUI-design-feature-img3.png" width="50" height="50" alt="image" border="0" style="display:block;"></td>
+																																												</tr>
+																																										</tbody>
+																																								</table></td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" style="line-height:1px" height="24"></td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" valign="middle" align="center" style="margin: 0px;padding: 0px;font-weight: 400;font-family: 'Open Sans', sans-serif;font-size: 18px;color: #ffffff;text-transform: uppercase;line-height: 20px;">development</td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" style="line-height:1px" height="15"></td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" valign="top" align="center" style="margin: 0px;padding: 0px;font-size: 14px;font-family: 'Open Sans', sans-serif;font-weight: 400;line-height: 24px;color: #c2ccf5;">Lorem Ipsum simply dummy text of the </td>
+																																				</tr>
+																																		</tbody>
+																																</table></td>
+																												</tr>
+																										</tbody>
+																								</table></td>
+																				</tr>
+																				<tr>
+																						<td width="100%" height="100" valign="middle" align="center" style="line-height:1px;" class="padding-bottom-60"></td>
+																				</tr>
+																		</tbody>
+																</table></td>
+												</tr>
+										</tbody>
+								</table></td>
+				</tr>
+		</tbody>
+</table>
+<!--Features Section 7 End--><!--Module 1-->
+<table class="width_100" align="center" border="0" cellpadding="0" cellspacing="0" width="900" style="border-collapse:collapse;" bgcolor="#ffd34d">
+		<tbody>
+				<tr>
+						<td width="100%" height="50" style="line-height:1px;" class="padding-top-60"></td>
+				</tr>
+				<tr>
+						<td width="100%" align="center" valign="middle"><table class="width_90percent" align="center" border="0" cellpadding="0" width="600" cellspacing="0" style="border-collapse:collapse; ">
+										<tbody>
+												<tr>
+														<td class="hero-section-font-1" width="100%" align="center" valign="middle" style="margin: 0px;padding: 0px;font-family: 'Open Sans', sans-serif;color: #000000;font-weight: 400;font-size: 30px;line-height: 32px;text-transform: uppercase;">Design</td>
+												</tr>
+												<tr>
+														<td class="display-block padding-top" width="100%" height="10" style="line-height:1px;"></td>
+												</tr>
+												<tr>
+														<td width="100%" align="center" valign="middle" style="line-height: 1px;">
+															<table align="center" border="0" cellpadding="0" width="146" cellspacing="0" style="border-collapse: collapse;">
+																		<tbody>
+																				<tr>
+																						<td width="100%" align="center" style="line-height:1px;border-bottom: 2px solid #1c41e4;"></td>
+																				</tr>
+																		</tbody>
+																</table></td>
+												</tr>
+												<tr>
+														<td width="100%" height="25" style="line-height:1px;" class="display-block padding"></td>
+												</tr>
+												<tr>
+														<td width="100%" align="center" valign="middle" style="margin: 0px;padding: 0px;font-weight: normal;font-family: 'Open Sans', sans-serif;line-height: 24px;font-size: 14px;color: #555555;">Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus<br>
+																orci luctus et consectetur adipiscing elit Duis</td>
+												</tr>
+												<tr>
+														<td class="display-block padding" width="100%" height="40" style="line-height:1px;"></td>
+												</tr>
+												<tr>
+														<td width="100%" align="center" valign="middle"><table align="center" border="0" cellpadding="0" cellspacing="0" style="">
+																		<tbody>
+																				<tr>
+																						<td align="center" style="margin: 0px;font-size: 14px;color: #ffffff;font-family: Open Sans, sans-serif;text-transform: uppercase;font-weight: 400;border: 1px solid #ffffff;border-radius: 10px;" bgcolor="#1c41e4"><a href="http://www.yourwebsiteurl.com/" target="_blank" style="color:#FFFFFF;text-decoration:none;display:block;padding: 14px 20px;">more details</a></td>
+																				</tr>
+																		</tbody>
+																</table></td>
+												</tr>
+										</tbody>
+								</table></td>
+				</tr>
+				<tr>
+						<td width="100%" height="50" style="line-height:1px;" class="padding-bottom-60"></td>
+				</tr>
+		</tbody>
+</table>
+<!--Module 1 end--><!--Module 21-->
+<table class="width_100" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#2d53f7" width="900" style="border-collapse:collapse;">
+		<tbody>
+				<tr>
+						<td width="100%" height="100%" align="center" valign="middle"><table class="width_100" align="center" border="0" cellpadding="0" width="100%" cellspacing="0" style="background-image: url(images/UXUI-design-baneer-img4.png);border-collapse:collapse;background-position: bottom left;background-repeat:no-repeat;background-size: contain;" background="images/UXUI-design-baneer-img4.png">
+										<tbody>
+												<tr>
+														<td width="100%" height="100%" align="center" valign="middle"><table class="width_90percent" align="center" border="0" cellpadding="0" width="600" cellspacing="0" style="border-collapse:collapse; ">
+																		<tbody>
+																				<tr>
+																						<td width="100%" height="50" style="line-height:1px;" class="padding-top-60"></td>
+																				</tr>
+																				<tr>
+																						<td width="100%" align="center" valign="middle"><table class="width_90percent" align="center" border="0" cellpadding="0" width="600" cellspacing="0" style="border-collapse: collapse;">
+																										<tbody>
+																												<tr>
+																														<td width="100%" align="center" valign="top"><table align="center" cellpadding="0" cellspacing="0" border="0">
+																																		<tbody>
+																																				<tr>
+																																						<td class="display-block padding" width="300" align="center" valign="top"><table class="text-center" align="left" cellpadding="0" cellspacing="0" border="0" width="100%">
+																																										<tbody>
+																																												<tr>
+																																														<td class="text-center hero-section-font-1" width="100%" valign="top" align="right" style="margin:0px;padding:0px;color: #ffffff;font-size: 30px;font-weight: 400;font-family: 'Open Sans', sans-serif;text-transform: uppercase;line-height: 34px;">Development</td>
+																																												</tr>
+																																												<tr>
+																																														<td width="100%" height="27"></td>
+																																												</tr>
+																																												<tr>
+																																														<td class="text-center" width="100%" valign="top" align="right" style="margin:0px;padding:0px;color: #ffd34d;font-size:14px;font-weight:400;font-family: 'Open Sans', sans-serif;line-height:24px;">Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et consectetur adipiscing elit Duis</td>
+																																												</tr>
+																																												<tr>
+																																														<td class="height-and-padding-bottom" width="100%" height="30"></td>
+																																												</tr>
+																																												<tr>
+																																														<td width="100%" align="center" valign="middle"><table align="right" border="0" cellpadding="0" cellspacing="0" style="" class="text-center">
+																																																		<tbody>
+																																																				<tr>
+																																																						<td align="center" style="margin: 0px;font-size: 14px;color: #ffffff;font-family: Open Sans, sans-serif;text-transform: uppercase;font-weight: 400;border: 1px solid #ffffff;border-radius: 10px;" bgcolor="#1c41e4"><a href="http://www.yourwebsiteurl.com/" target="_blank" style="color:#FFFFFF;text-decoration:none;display:block;padding: 13px 18px;">more details</a></td>
+																																																				</tr>
+																																																		</tbody>
+																																																</table></td>
+																																												</tr>
+																																												<tr>
+																																														<td class="display-block padding" width="100%" height="36"></td>
+																																												</tr>
+																																										</tbody>
+																																								</table></td>
+																																						<td class="display-block height-and-padding-bottom" width="50" style="line-height:1px;"></td>
+																																						<td class="display-block" width="250" align="center" valign="top">
+																																								<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+																																										<tbody>
+																																												<tr>
+																																														<td width="100%" align="center" valign="bottom" style="line-height:1px;"><img src="https://picsum.photos/id/1/100/100" width="250" height="245" alt="image" border="0" style="display:block;"></td>
+																																												</tr>
+																																										</tbody>
+																																								</table></td>
+																																				</tr>
+																																		</tbody>
+																																</table></td>
+																												</tr>
+																												<tr>
+																														<td class="display-block padding" width="100%" height="38" style="line-height:1px;"></td>
+																												</tr>
+																												<tr>
+																														<td width="100%" align="center" valign="top"><table align="center" cellpadding="0" cellspacing="0" border="0">
+																																		<tbody>
+																																				<tr>
+																																						<td class="display-block" width="250" align="center" valign="top">
+																																								<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+																																										<tbody>
+																																												<tr>
+																																														<td width="100%" align="center" valign="bottom" style="line-height:1px;"><img src="https://picsum.photos/id/2/100/100" width="250" height="245" alt="image" border="0" style="display:block;"></td>
+																																												</tr>
+																																										</tbody>
+																																								</table></td>
+																																						<td class="display-block height-and-padding-bottom" width="50" style="line-height:1px;"></td>
+																																						<td class="display-block padding" width="300" align="center" valign="top"><table class="text-center" align="left" cellpadding="0" cellspacing="0" border="0" width="100%">
+																																										<tbody>
+																																												<tr>
+																																														<td class="text-center hero-section-font-1" width="100%" valign="top" align="left" style="margin:0px;padding:0px;color: #ffffff;font-size: 30px;font-weight: 400;font-family: 'Open Sans', sans-serif;text-transform: uppercase;line-height: 34px;">Network</td>
+																																												</tr>
+																																												<tr>
+																																														<td width="100%" height="27"></td>
+																																												</tr>
+																																												<tr>
+																																														<td class="text-center" width="100%" valign="top" align="left" style="margin:0px;padding:0px;color: #ffd34d;font-size:14px;font-weight:400;font-family: 'Open Sans', sans-serif;line-height:24px;">Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et consectetur adipiscing elit Duis</td>
+																																												</tr>
+																																												<tr>
+																																														<td class="height-and-padding-bottom" width="100%" height="30"></td>
+																																												</tr>
+																																												<tr>
+																																														<td width="100%" align="center" valign="middle"><table align="left" border="0" cellpadding="0" cellspacing="0" style="" class="text-center">
+																																																		<tbody>
+																																																				<tr>
+																																																						<td align="center" style="margin: 0px;font-size: 14px;color: #ffffff;font-family: Open Sans, sans-serif;text-transform: uppercase;font-weight: 400;border: 1px solid #ffffff;border-radius: 10px;" bgcolor="#1c41e4"><a href="http://www.yourwebsiteurl.com/" target="_blank" style="color:#FFFFFF;text-decoration:none;display:block;padding: 13px 18px;">more details</a></td>
+																																																				</tr>
+																																																		</tbody>
+																																																</table></td>
+																																												</tr>
+																																												<tr>
+																																														<td class="display-block padding" width="100%" height="36"></td>
+																																												</tr>
+																																										</tbody>
+																																								</table></td>
+																																				</tr>
+																																		</tbody>
+																																</table></td>
+																												</tr>
+																										</tbody>
+																								</table></td>
+																				</tr>
+																				<tr>
+																						<td width="100%" height="50" style="line-height:1px;" class="erase"></td>
+																				</tr>
+																		</tbody>
+																</table></td>
+												</tr>
+										</tbody>
+								</table></td>
+				</tr>
+		</tbody>
+</table>
+
+
+<!--end--><!--Module 43-->
+<table class="width_100" align="center" border="0" cellpadding="0" cellspacing="0" width="900" style="border-collapse:collapse;" bgcolor="#ffd34d">
+		<tbody>
+				<tr>
+						<td width="100%" align="center" valign="middle"><table class="width_90percent" align="center" border="0" cellpadding="0" width="600" cellspacing="0" style="border-collapse:collapse;">
+										<tbody>
+												<tr>
+														<td width="100%" height="50" style="line-height:1px;" class="padding-top-60"></td>
+												</tr>
+												<tr>
+														<td width="100%" align="center" valign="middle" style="margin:0px;padding:0px;font-size:18px;color: #000000;font-family: 'Montserrat', sans-serif;font-weight: 600;text-transform: uppercase;line-height: 24px;">contact info</td>
+												</tr>
+												<tr>
+														<td width="100%" height="8" style="line-height:1px;"></td>
+												</tr>
+												<tr>
+														<td width="100%" align="center" valign="middle" style="line-height: 1px;">
+																<table align="center" border="0" cellpadding="0" width="129" cellspacing="0" style="border-collapse: collapse;">
+																		<tbody>
+																				<tr>
+																						<td width="100%" align="center" style="line-height:1px;border-bottom: 1px solid #ffffff;"></td>
+																				</tr>
+																		</tbody>
+																</table></td>
+												</tr>
+												<tr>
+														<td width="100%" height="20" style="line-height:1px;"></td>
+												</tr>
+												<tr>
+														<td width="100%" align="center" valign="middle" style="margin:0px;padding:0px;font-size:14px;color: #1437cb;font-family: 'Open Sans', sans-serif;font-weight: 400;line-height:24px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+																consectetur adipiscing elit Duis</td>
+												</tr>
+												<tr>
+														<td width="100%" height="25" style="line-height:1px;"></td>
+												</tr>
+												<tr>
+														<td width="100%" align="center" valign="middle" style="line-height: 1px;">
+															<table align="center" border="0" cellpadding="0" width="100%" cellspacing="0" style="border-collapse: collapse;">
+																		<tbody>
+																				<tr>
+																						<td width="100%" align="center" style="line-height:1px;border-bottom: 1px solid #ffffff;"></td>
+																				</tr>
+																		</tbody>
+																</table></td>
+												</tr>
+												<tr>
+														<td width="100%" height="25" style="line-height:1px;"></td>
+												</tr>
+												<tr>
+														<td width="100%" align="center" valign="top">
+																<table align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+																		<tbody>
+																				<tr>
+																						<td class="display-block height-and-padding-bottom" width="200" align="center" valign="top"><table align="center" border="0" cellpadding="0" width="100%" cellspacing="0" style="border-collapse:collapse;">
+																										<tbody>
+																												<tr>
+																														<td width="30" valign="middle" align="left"><img src="images/UXUI-design-footer-icon1.png" alt="Address" width="19" height="27" border="0" style="display:block;"></td>
+																														<td width="170" align="left" valign="top" style="margin:0px;padding:0px;font-size:14px;font-family: 'Open Sans', sans-serif;font-weight: normal;line-height:22px;color: #1437cb;"><a href="http://www.yourwebsiteurl.com" style="text-decoration: none;color: #1437cb;">Lisbon
+																														</a></td>
+																												</tr>
+																										</tbody>
+																								</table></td>
+																						<td class="display-block height-and-padding-bottom" width="200" align="center" valign="top"><table align="center" border="0" cellpadding="0" width="100%" cellspacing="0" style="border-collapse:collapse;">
+																										<tbody>
+																												<tr>
+																														<td width="40" valign="middle" align="left"><img src="images/UXUI-design-footer-icon2.png" alt="Email" width="27" height="21" border="0" style="display:block;"></td>
+																														<td class="display-block" width="160" align="center" valign="top"><table align="center" border="0" cellpadding="0" width="100%" cellspacing="0">
+																																		<tbody>
+																																				<tr>
+																																						<td width="100%" align="left" valign="top" style="margin: 0px;padding: 0px;font-size: 14px;font-weight: normal;font-family: 'Open Sans', sans-serif;color: #1437cb;"><a href="mailto:support@domain.com" style="text-decoration: none;color: #1437cb;">www.webside.com</a></td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" height="5" style="line-height:1px;"></td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" align="left" valign="top" style="margin: 0px;padding: 0px;font-size: 14px;font-weight: normal;font-family: 'Open Sans', sans-serif;color: #1437cb;"><a href="mailto:sales@domain.com" style="text-decoration: none;color: #1437cb;">email@teste.com</a></td>
+																																				</tr>
+																																		</tbody>
+																																</table></td>
+																												</tr>
+																										</tbody>
+																								</table></td>
+																						<td class="display-block" width="200" align="center" valign="top"><table align="center" border="0" cellpadding="0" width="100%" cellspacing="0" style="border-collapse:collapse;">
+																										<tbody>
+																												<tr>
+																														<td width="40" valign="middle" align="left"><img src="images/UXUI-design-footer-icon3.png" alt="Contact" width="27" height="27" border="0" style="display:block;"></td>
+																														<td class="display-block" width="160" align="center" valign="top"><table align="center" border="0" cellpadding="0" width="100%" cellspacing="0" style="border-collapse:collapse;">
+																																		<tbody>
+																																				<tr>
+																																						<td width="100%" align="left" valign="top" style="margin: 0px;padding: 0px;font-size: 14px;font-weight: normal;color: #1437cb;font-family: 'Open Sans', sans-serif;"><a href="tel:(+21) 000 0000" style="text-decoration: none;color: #1437cb;">(+21) 000 0000</a></td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" height="5" style="line-height:1px;"></td>
+																																				</tr>
+																																				<tr>
+																																						<td width="100%" align="left" valign="top" style="margin: 0px;padding: 0px;font-size: 14px;font-weight: normal;font-family: 'Open Sans', sans-serif;color: #1437cb;"><a href="tel:+(+21) 000 0000" style="text-decoration: none;color: #1437cb;">(+21) 000 0000</a></td>
+																																				</tr>
+																																		</tbody>
+																																</table></td>
+																												</tr>
+																										</tbody>
+																								</table></td>
+																				</tr>
+																		</tbody>
+																</table></td>
+												</tr>
+												<tr>
+														<td width="100%" height="50" style="line-height:1px;" class="padding-bottom-60"></td>
+												</tr>
+										</tbody>
+								</table></td>
+				</tr>
+		</tbody>
+</table>
+<!--End--><!--Module 41-->
+<table class="width_100" align="center" border="0" cellpadding="0" cellspacing="0" width="900" style="border-collapse:collapse;" bgcolor="#000000">
+		<tbody>
+				<tr>
+						<td width="100%" height="30" style="line-height:1px;"></td>
+				</tr>
+				<tr>
+						<td width="100%" align="center" valign="middle">
+							<table class="width_90percent" align="center" border="0" cellpadding="0" width="600" cellspacing="0" style="border-collapse:collapse;">
+										<tbody>
+											<tr>
+													<td width="175" align="center" valign="middle" class="display-block">
+															<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+																	<tbody>
+																			<tr>
+																					<td class="display-block" align="center" valign="middle" style="margin:0px;padding:0px;font-size:14px;color: #a4a4a4;font-family: 'Open Sans', sans-serif;font-weight: 400;line-height: 20px;">@ 2020 Company</td>
+																			</tr>
+																	</tbody>
+															</table>
+													</td>
+													<td class="display-block padding-top" width="335" style="line-height:1px;"></td>
+													<td class="display-block" width="90" align="center" valign="middle" style="margin:0px;padding:0px;font-size: 13px;text-transform: uppercase;color: #ffd34d;font-family: 'Open Sans', sans-serif;font-weight: 400;line-height:24px;"><a href="#" style="text-decoration: none;color: #ffd34d;">Unsubscribe</a></td>
+											</tr>
+									</tbody>
+							</table>
+					</td>
+				</tr>
+				<tr>
+						<td width="100%" height="30" style="line-height:1px;"></td>
+				</tr>
+		</tbody>
+</table>
+<!--End-->
+</body>
+</html>
