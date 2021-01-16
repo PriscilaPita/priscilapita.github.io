@@ -1,0 +1,156 @@
+body {
+    margin-top: 105px;
+    background-color: #f6f6f6 ;
+}
+  
+/*#6D6851 peat
+#CCB380 tan
+#BBB482 mongoose
+#ACA49C cloudy
+*/
+
+h2 {
+    text-align: center;
+    color: #ACA49C;
+}
+
+.fab {
+    color: #171717;
+    padding: 0.7rem;
+}
+
+.fab:hover{
+    color: #6D6851;
+}
+
+  .navbar {
+    box-shadow: 2px 2px 5px #6d6851dc;
+    opacity: 0.9;
+    background: #fff; 
+    color: #171717 !important;
+}
+
+.navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #171717;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #494949;
+}
+.navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem;
+    padding-bottom: 0.4rem; 
+}
+
+#showcase {
+    position: relative;
+    background: url("../img/background.jpeg");
+    min-height: 350px;
+}
+
+#showcase .primary-overlay {
+    background: rgba(245, 197, 163, 0.089);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+.container.gallery-container {
+    background-color: #f6f6f6;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.gallery .pagination{
+	width: 100%;
+	float: left;
+	padding:15px;
+	text-align: center;
+}
+.gallery .pagination div{
+	display: inline-block;
+	margin:0 10px;
+}
+.gallery .pagination .page{
+	color:gray;
+}
+.gallery .pagination .prev,.gallery .pagination .next{
+ color:#000;
+ border:1px solid #000;
+ font-size:15px;
+ padding:7px 15px;
+ cursor: pointer;
+}
+
+.gallery .pagination .prev.disabled,
+.gallery .pagination .next.disabled{
+	border-color: gray;
+	color:gray;
+	pointer-events: none;
+}
+
+#main-footer{
+    background-color: #fff;
+    color: #171717;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+
+
