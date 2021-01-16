@@ -1,0 +1,136 @@
+body {
+    overflow-x: hidden;
+  }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    outline: none !important;
+}
+
+a:hover {
+    color: #3BE2AB;
+    text-decoration: none;
+    outline: none !important;
+}
+.navbar .nav-link {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active{
+    border-bottom: #3BE2AB 3px solid;
+    color: #ffffff;
+}
+
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1{
+    background: url('../img/grey-kitten-on-floor-774731.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2{
+    background: url('../img/adorable-animal-blur-cat-617278.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background: url('../img/photo-of-gray-cat-looking-up-against-black-background-730896.jpg');
+    background-size: cover;
+}
+
+#home-icons .fas {
+    color:#3BE2AB; 
+}
+
+#home-icons .fab {
+    color:#3BE2AB;
+}
+
+#home-heading {
+    position: relative;
+    margin-top: 60px;
+    min-height: 150px;
+    background: url('../img/sarah-brink-E9EtHWhymOI-unsplash.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+  }
+
+  
+.miaowfotos {
+    margin-top: 40px;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.btn-outline-danger {
+  color: #3BE2AB;
+  border-color: #3BE2AB;
+}
+
+.btn-outline-danger:hover {
+    color: #ffffff;
+    border-color: #3BE2AB;
+    background-color: #3BE2AB;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+#main-footer {
+    background: #343a40;
+    color: #fff;
+  }
+  
+.footer-bottom {
+    text-align: center;
+}
+
+hr {
+    background-color: #3BE2AB;
+}
+
+  /* #page-header {
+    height: 200px;
+    background: url('../img/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+  } */
+  
+  /* .about-img {
+    margin-top: -50px;
+  } */
+  
+  #faq .card {
+    border: #444;
+  }
+  
+  #faq a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #faq .card-body,
+  #faq .card-header {
+    background: #333;
+  }
