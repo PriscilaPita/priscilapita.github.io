@@ -10,7 +10,7 @@ body {
 
 /* Título principal */
 h1 {
-  color: #dd1eff;
+  color: #4b0d56;
   font-size: 2em;
   text-align: center;
   margin-bottom: 20px;
@@ -40,13 +40,13 @@ input {
 }
 
 input:focus {
-  border-color: #d30cf6; /* Azul ao focar */
+  border-color: #4b0d56; /* Azul ao focar */
   box-shadow: 0 0 5px rgba(214, 30, 255, 0.5);
   outline: none;
 }
 
 button {
-  background-color: #dd1eff; /* Azul vibrante */
+  background-color: #4b0d56; /* Azul vibrante */
   color: white;
   border: none;
   padding: 12px 18px;
@@ -86,11 +86,11 @@ p {
 
 /* Resultados com cores vibrantes */
 #randomNumber1 {
-  color: #dd1eff; /* Verde vibrante */
+  color: #4b0d56; /* Verde vibrante */
 }
 
 #randomNumber2 {
-  color: #dd1eff; /* Vermelho vibrante */
+  color: #4b0d56; /* Vermelho vibrante */
 }
 
 /* Lista de notícias */
@@ -111,7 +111,7 @@ p {
 }
 
 .news-item h3 {
-  color: #dd1eff
+  color: #4b0d56
 }
 
 /* Adicionando a imagem no canto inferior direito */
