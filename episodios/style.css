@@ -1,0 +1,125 @@
+/* Definições gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  position: relative; /* Necessário para posicionar elementos relativos ao body */
+}
+
+/* Título principal */
+h1 {
+  color: #e5d9f2;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estrutura dos inputs e botões */
+div {
+  margin: 15px 0;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #444444; /* Bordas escuras */
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #1e1e1e; /* Fundo escuro */
+  color: #ffffff; /* Texto claro */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #cdc1ff; /* Azul ao focar */
+  box-shadow: 0 0 5px rgba(174, 128, 239, 0.5);
+  outline: none;
+}
+
+button {
+  background-color: #a294f9; /* Azul vibrante */
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #e5d9f2;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Subtítulos */
+h2 {
+  margin-top: 30px;
+  font-size: 1.5em;
+  color: #ffffff; /* Texto branco */
+}
+
+/* Parágrafos e caixas de texto */
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #1e1e1e; /* Fundo escuro */
+  border: 1px solid #444444; /* Bordas escuras */
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Resultados com cores vibrantes */
+#randomNumber1 {
+  color: #e5d9f2; /* Verde vibrante */
+}
+
+#randomNumber2 {
+  color: #e5d9f2; /* Vermelho vibrante */
+}
+
+/* Lista de notícias */
+.news-item {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #444444;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.news-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.news-item h3 {
+  color: #e5d9f2
+}
+
+/* Adicionando a imagem no canto inferior direito */
+.background-image {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 100px; /* Tamanho da imagem */
+  height: auto;
+  opacity: 0.8; /* Leve transparência para não chamar muita atenção */
+}
